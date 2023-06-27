@@ -1,0 +1,144 @@
+
+.headerPrincipal .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerPrincipal-nav {
+    display: flex;
+}
+
+
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: end;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 70%;
+    
+}
+
+.rodapePrincipal-patrocinadores-list li {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display: block;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.rodapePrincipal-navMap-list a {
+    display: block;
+}
+
+
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    
+}
+
+.contenidoPrincipal-cursos-link {
+    display: flex;
+    width: 23%;
+}
+
+.videoSobre .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.videoSobre-sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 2;
+}
+
+/* MOBILE */
+
+@media (max-width: 780px){
+
+    .headerPrincipal .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .headerPrincipal-nav {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .contenidoPrincipal-cursos{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        
+    }
+    
+    .contenidoPrincipal-cursos-link {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .videoSobre .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .videoSobre-button {
+        margin: auto;
+        width: 100%;
+    }
+    
+    .rodapePrincipal-navMap-list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rodapePrincipal-patrocinadores .container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+    
+    .rodapePrincipal-patrocinadores-list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .videoSobre-video {
+        margin: auto;
+    }
+
+}
+
